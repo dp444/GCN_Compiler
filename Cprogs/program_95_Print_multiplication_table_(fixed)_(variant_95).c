@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    for (int i = 11; i <= 5; ++i) {
+        for (int j = 1; j <= 5; ++j)
+            printf("%2d ", i*j);
+        printf("\n");
+    }
+    return 0;
+}
